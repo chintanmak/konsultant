@@ -1,6 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 .navbar_container{
+    position: fixed;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 100%;
+
+    & .navbar_section{    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 90%;
+    border-radius: 1rem;
+    box-shadow: 0.1rem 0.2rem #d0cece;
+    padding: 1rem 0;
+    margin: 1rem 0;
+    background-color: white;
+    & .logo_container{
+        font-size: 1.5rem;
+        & span{
+            color: red;
+        }
+    }
+    & .menu_container{
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+        & a{
+            font-size: 1.3rem;
+            text-decoration: none;
+            color: black;
+        }
+    }
+   }
 }
