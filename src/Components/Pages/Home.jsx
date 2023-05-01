@@ -4,6 +4,14 @@ import '../Scss/_home.scss';
 import headerbg from '../Assets/headerimg.jpg';
 import personpic from '../Assets/personpic.jpeg';
 
+import chat from '../Assets/chat.png';
+import paper from '../Assets/papers.png';
+import customer from '../Assets/customer.png';
+import dollar from '../Assets/dollar.png';
+import calc from '../Assets/calc.png';
+import estate from '../Assets/estate.png';
+import downarrow from '../Assets/downarrow.png';
+
 export default function Home() {
   return (
     <>
@@ -26,6 +34,57 @@ export default function Home() {
         <div className='advice_img'>
           <img src={personpic} />
         </div>
+      </div>
+
+      <div className='services_container'>
+        <div className='services_title'>
+          <h2>INDUSTRIES WE SERVE</h2>
+          <img src={downarrow} />
+        </div>
+        <div className='services_section'>
+          <div className='services_box1 borderbox1'>
+            <img src={chat} />
+            <h2>COMMUNICATIONS</h2>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+          </div>
+
+          <div className='services_box1 borderbox1'>
+            <img src={paper} />
+            <h2>AUDIT & EVALUATION</h2>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+          </div>
+
+          <div className='services_box1 borderbox2'>
+            <img src={customer} />
+            <h2>CONSUMER MARKETS</h2>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+          </div>
+
+          <div className='services_box1 borderbox3'>
+            <img src={dollar} />
+            <h2>FINANCIAL SERVICES</h2>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+          </div>
+
+          <div className='services_box1 borderbox3'>
+            <img src={calc} />
+            <h2>TAXES & EFFICENCY</h2>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+          </div>
+
+          <div className='services_box1'>
+            <img src={estate} />
+            <h2>ESTATE PLANNING</h2>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+          </div>
+        </div>
+      </div>
+
+      <div className='casestudies_container'>
+          <div className='casestudies_title'>
+          <h2>CASE STUDIES</h2>
+          <img src={downarrow} />
+          </div>
       </div>
     </>
   )
