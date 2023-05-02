@@ -11,6 +11,8 @@ import dollar from '../Assets/dollar.png';
 import calc from '../Assets/calc.png';
 import estate from '../Assets/estate.png';
 import downarrow from '../Assets/downarrow.png';
+import meeting1 from '../Assets/meeting1.jpg';
+import meeting2 from '../Assets/meeting2.jpg';
 
 export default function Home() {
   return (
@@ -81,11 +83,36 @@ export default function Home() {
       </div>
 
       <div className='casestudies_container'>
+      <img src={meeting2} className='bgimg' />
+      <div className='casestudy_maincontainer'>
+
           <div className='casestudies_title'>
           <h2>CASE STUDIES</h2>
           <img src={downarrow} />
           </div>
+
+          <div className='casestudy_section'>
+            <div className='casestudybox1'>
+              <img src={meeting1} />
+            </div>
+            <div className='casestudybox2'>
+              <h2>QUISQUE DYNAMIC</h2>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+              <button>READ MORE</button>
+            </div>
+          
+            <div className='casestudybox2'>
+              <h2>ALIQUAM CORP</h2>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+              <button>READ MORE</button>
+            </div>
+            <div className='casestudybox1'>
+              <img src={meeting2} />
+            </div>
+          </div>
+        </div>
       </div>
+
     </>
   )
 }
