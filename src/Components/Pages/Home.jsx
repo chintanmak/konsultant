@@ -113,6 +113,22 @@ export default function Home() {
         </div>
       </div>
 
+      <div className='client_container'>
+      <div className='client_title'>
+          <h2>Happy Client</h2>
+          <img src={downarrow} />
+      </div>
+      <div className='client_review'>
+        <div className='clientreview_box'>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+        </div>
+          <hr />
+        <div className='clientreview_box'>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+        </div>
+      </div>
+      </div>
+
     </>
   )
 }

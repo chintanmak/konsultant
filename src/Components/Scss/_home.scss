@@ -162,6 +162,7 @@
         height: 90rem;
         clip-path: polygon(100% 0, 100% 72%, 85% 85%, 0 72%, 0 0);
         opacity: 0.4;
+        background: #0000ff;
     }
     
     & .casestudy_maincontainer{
@@ -230,4 +231,51 @@
             }
     }
 }
+}
+
+.client_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -15rem;    
+    // border: 1px solid;
+    & .client_title{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        & h2{
+            font-size: 3rem;
+            font-weight: 800;
+            color: red;
+        }
+        & img{
+            width: 2rem;
+        }
+    }
+
+    & .client_review{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+
+        & .clientreview_box{
+            display: flex;
+            margin-top: 1rem;
+            width: 35%;
+            padding: 2rem;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        & hr{
+            height: 4rem;
+            background-color: black;
+            border: 1px solid;
+        }
+    }
 }
