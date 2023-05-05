@@ -240,6 +240,7 @@
     align-items: center;
     margin-top: -15rem;    
     // border: 1px solid;
+    padding-bottom: 5rem;
     & .client_title{
         display: flex;
         flex-direction: column;
@@ -278,4 +279,8 @@
             border: 1px solid;
         }
     }
+}
+
+.advisors_container{
+    
 }

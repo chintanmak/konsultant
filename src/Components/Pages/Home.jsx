@@ -133,6 +133,12 @@ export default function Home() {
       </div>
       </div>
 
+      <div className='advisors_container'>
+        <div className=''>
+        
+
+        </div>
+      </div>
     </>
   )
 }
