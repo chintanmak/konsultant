@@ -13,6 +13,8 @@ import estate from '../Assets/estate.png';
 import downarrow from '../Assets/downarrow.png';
 import meeting1 from '../Assets/meeting1.jpg';
 import meeting2 from '../Assets/meeting2.jpg';
+import person1 from '../Assets/person1.jpeg';
+import person2 from '../Assets/person2.jpeg';
 
 export default function Home() {
   return (
@@ -134,9 +136,25 @@ export default function Home() {
       </div>
 
       <div className='advisors_container'>
-        <div className=''>
-        
+        <div className='advisors_box'> 
+        <img src={person1} />
+        <p>Co-Founder</p>
+        <br />
+        <h2>Alec Whitten</h2>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+        </div>
 
+        <div className='advisors_box'> 
+        <img src={person2} />
+        <p>CFO</p>
+        <br />
+        <h2>Kelis Ford</h2>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+        </div>
+
+        <div className='advisors_box'> 
+        <h1>OUR <br />ADVISORS</h1>
+        <button>READ MORE</button>
         </div>
       </div>
     </>
