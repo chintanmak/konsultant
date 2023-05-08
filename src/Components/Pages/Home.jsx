@@ -157,6 +157,11 @@ export default function Home() {
         <button>READ MORE</button>
         </div>
       </div>
+      <div className=''>
+        <div>
+          
+        </div>
+      </div>
     </>
   )
 }
