@@ -157,10 +157,48 @@ export default function Home() {
         <button>READ MORE</button>
         </div>
       </div>
-      <div className=''>
-        <div>
-          
+
+      <div className='footer_container'>
+      <img src={meeting1} className='bgimg' />
+        <div className='footer_main_container'>
+          <div className='footer_title'>
+            <h2>OUR OFFICE</h2>
+            <img src={downarrow} />
+          </div>
+          <div className='footer_content'>
+            <hr />
+              <div className='office_boxs'>
+              <h2>NEW YORK</h2>
+              <br />
+              <p>123 456 7890</p>
+              <p>Contact@example.com</p>
+              <p>123 Fifth Avenue, New York, NY 101680</p>
+              </div>
+            <hr />
+              <div className='office_boxs'>
+              <h2>PARIS</h2>
+              <br />
+              <p>123 456 7890</p>
+              <p>Contact@example.com</p>
+              <p>123 Fifth Avenue, New York, NY 101680</p>
+              </div>
+            <hr />
+              <div className='office_boxs'>
+              <h2>CHICAGO</h2>
+              <br />
+              <p>123 456 7890</p>
+              <p>Contact@example.com</p>
+              <p>123 Fifth Avenue, New York, NY 101680</p>
+              </div>
+              <div className='k_circle'>
+              <h1>K</h1>
+              </div>
+          </div>
         </div>
+      </div>
+
+      <div className='rights_container'>
+        <p>Copyright © 2023 KONSULTANT. Chintan.Mak</p>
       </div>
     </>
   )
